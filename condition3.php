@@ -8,7 +8,7 @@
 <body>
   <h1>中医学的体質診断</h1>
   <h2><a href = "about.php">中医学とは？  ＆  基本用語解説</a></h2>
-  <p>気になる体調が最も多いブロックを選択してください</p>
+  <p>現在の体調に最も当てはまるブロックを選択してください</p>
   <form action = "condition_receive2.php" method = "POST">
     <div id = "container">
       <div>
