@@ -17,9 +17,7 @@ require_once('text.php');
     <?php
     if(isset($_POST['condition'])){
       $condition = $_POST['condition'];
-      echo 'あなたは、' . html_escape($condition). '体質かもしれません。';
-    }else{
-      echo '選択されていません。';
+      echo 'あなたは、<span style="color:red;">' .html_escape($condition). '体質</span>かもしれません。';
     }
     ?>
   </h3>

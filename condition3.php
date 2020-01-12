@@ -12,7 +12,7 @@
   <form action = "condition_receive2.php" method = "POST">
     <div id = "container">
       <div>
-        <input type = "radio" name = "condition" value ="気虚(ききょ)">
+        <input type = "radio" name = "condition" value ="気虚(ききょ)" checked>
         <ul>
           <li>倦怠感</li>
           <li>風邪を引きやすい</li>
