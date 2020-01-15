@@ -15,7 +15,7 @@ require_once('text.php');
   <h1>結果</h1>
   <h3>
     <?php
-    if(isset($_POST['condition'])){
+    if($_SERVER['REQUEST_METHOD'] === 'POST'){
       $condition = $_POST['condition'];
       echo 'あなたは、<span style="color:red;">' .html_escape($condition). '体質</span>かもしれません。';
     }
