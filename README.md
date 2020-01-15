@@ -12,6 +12,6 @@ HTML,CSS,PHP
 元鍼灸マッサージ師ということもあり、前職の知識を活かしたアウトプットをしてみたいと思ったため。<br>
 
 # DEMO
-![demo_1](portforio_demo_1)
-![demo_2](portforio_demo_2)
+![demo_1](demo1.gif)
+![demo_2](demo2.gif)
 
